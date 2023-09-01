@@ -1,0 +1,3 @@
+﻿  LettersMixed.cpp
+C:\Users\Alina\Desktop\СПБГТИ(ТУ)\7 семестр\ЛиПОАИС\Лабы\LettersMixed\LettersMixed.cpp(55,31): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  LettersMixed.vcxproj -> C:\Users\Alina\Desktop\СПБГТИ(ТУ)\7 семестр\ЛиПОАИС\Лабы\LettersMixed\x64\Debug\LettersMixed.exe
