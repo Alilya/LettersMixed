@@ -1,4 +1,3 @@
 ﻿  LettersMixed.cpp
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\filesystem(13): warning STL4038: The contents of <filesystem> are available only with C++17 or later.
-C:\Users\Alina\Desktop\СПБГТИ(ТУ)\7 семестр\ЛиПОАИС\Лабы\LettersMixed\LettersMixed.cpp(16,30): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
   LettersMixed.vcxproj -> C:\Users\Alina\Desktop\СПБГТИ(ТУ)\7 семестр\ЛиПОАИС\Лабы\LettersMixed\x64\Debug\LettersMixed.exe

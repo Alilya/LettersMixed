@@ -1,6 +1,7 @@
 #pragma once
 #include <string>
 #include <iostream>
+#include <vector>
 
 using namespace std;
 
@@ -19,3 +20,13 @@ enum answer {
 	yes = 1,
 	no
 };
+
+
+struct stringC {
+public:
+	string  result;
+	void setStr(string& result);;
+	stringC();
+	~stringC() = default;
+};
+

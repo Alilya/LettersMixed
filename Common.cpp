@@ -1,4 +1,8 @@
 #include "Common.h"
+#include <clocale>
+#include <fstream>
+#include <vector>
+
 using namespace std;
 
 int getInt() {
@@ -12,4 +16,18 @@ int getInt() {
 	cin.ignore(numeric_limits<streamsize>::max(), '\n');
 	return input;
 }
+
+
+
+using namespace std;
+
+stringC::stringC() {
+	result = "";
+}
+
+
+void stringC::setStr(string& newStr) {
+	result += newStr;
+}
+
 

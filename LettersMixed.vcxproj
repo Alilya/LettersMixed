@@ -131,9 +131,13 @@
     <ClCompile Include="Common.cpp" />
     <ClCompile Include="Input.cpp" />
     <ClCompile Include="Save.cpp" />
+    <ClCompile Include="Calc.cpp" />
+    <ClCompile Include="Test.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Common.h" />
+    <ClInclude Include="Calc.h" />
+    <ClInclude Include="Test.h" />
     <ClInclude Include="Save.h" />
     <ClInclude Include="Input.h" />
   </ItemGroup>

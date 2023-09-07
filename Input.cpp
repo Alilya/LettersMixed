@@ -9,10 +9,7 @@
 #include "Common.h"
 #include "Input.h"
 
-
-
 using namespace std;
-
 
 void randomInput::createText(string& str) {
 	int count;
@@ -25,28 +22,27 @@ void randomInput::createText(string& str) {
 	}
 	for (int i = 0; i < count; i++) {
 		str += char('a' + rand() % ('z' - 'a'));
-
 	}
 	
 	cout << endl;
-	cout << "текст: " << str << endl;
+	cout << "Сгенерированный текст: " << str << endl;
 	cout << endl;
 }
 
 void keyboardInput::createText(string& str) {
-	cout << "Введите первый текст: " << endl;
+	cout << "Введите текст: " << endl;
 	cin >> str;
 }
 
 bool checkEnter(string enterfile) {///
-	//try {
-	//	static_cast<void>(std::filesystem::is_regular_file(enterfile));
-	//}
-	//catch (...) {
-	//	cout << "запись невозможна, использовано зарезервированное выражение" << endl;
-	//	return true;
-	//}
-	//return false;
+	/*try {
+		static_cast<void>(std::filesystem::is_regular_file(enterfile));
+	}
+	catch (...) {
+		cout << "запись невозможна, использовано зарезервированное выражение" << endl;
+		return true;
+	}
+	return false;*/
 	return true;
 }
 
